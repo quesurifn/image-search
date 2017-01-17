@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  .row
+    .col-md-12
+      .text-center
+        h1 Google Image Search API
+        h2 Example Usage
+        p "https://image-search.heokuapp.com<strong>/api/puppies"</strong>
+        | <strong>would output:</strong> 
+        p A JSON string with image results and image metadata
+        br
+        br
+        p "https://timestamp-ms.herokuapp.com<strong>/history"</strong>
+        |  <strong>would output:</strong>
+        p  [{"_id":"587d9b2202e3751d0c4aa4b2","search_terms":"history","searched_at":"Mon Jan 16 2017 22:18:42 GMT-0600 (Central Standard Time)","__v":0},
+        |   {"_id":"587d9b1b02e3751d0c4aa4b1","search_terms":"popps","searched_at":"Mon Jan 16 2017 22:18:35 GMT-0600 (Central Standard Time)","__v":0},
+        |   {"_id":"587d9b1302e3751d0c4aa4b0","search_terms":"rachel","searched_at":"Mon Jan 16 2017 22:18:27 GMT-0600 (Central Standard Time)","__v":0}]
+        br
+        br
+        p Designed by: Kyle C R Fahey 
+        a(href="http://github.com/quesurifn") Github
+      
