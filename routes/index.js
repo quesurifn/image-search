@@ -2,7 +2,6 @@ var express = require('express');
 var mongoose = require('mongoose');
 var Search = require('../models/search');
 var imageSearch = require('node-google-image-search');
-var CircularJSON = require('circular-json');
 require('dotenv').config()
 var router = express.Router();
 
